@@ -5,52 +5,192 @@ Steam Web API implements in Go
 
 Current API List is from steam API, I will implements necessary API only.
 
+- [ ] ICSGOServers_730
+	- [ ] GetGameServersStatus
+- [ ] IDOTA2Fantasy_205790
+	- [ ] GetFantasyPlayerStats
+	- [ ] GetPlayerOfficialInfo
+- [ ] IDOTA2Fantasy_570
+	- [ ] GetFantasyPlayerStats
+	- [ ] GetPlayerOfficialInfo
+- [ ] IDOTA2MatchStats_570
+	- [ ] GetRealtimeStats
+- [ ] IDOTA2Match_205790
+	- [ ] GetLeagueListing
+	- [ ] GetLiveLeagueGames
+	- [ ] GetMatchDetails
+	- [ ] GetMatchHistory
+	- [ ] GetMatchHistoryBySequenceNum
+	- [ ] GetScheduledLeagueGames
+	- [ ] GetTeamInfoByTeamID
+	- [ ] GetTournamentPlayerStats
+- [ ] IDOTA2Match_570
+	- [ ] GetLeagueListing
+	- [ ] GetLiveLeagueGames
+	- [ ] GetMatchDetails
+	- [ ] GetMatchHistory
+	- [ ] GetMatchHistoryBySequenceNum
+	- [ ] GetScheduledLeagueGames
+	- [ ] GetTeamInfoByTeamID
+	- [ ] GetTournamentPlayerStats
+- [ ] IDOTA2Ticket_570
+	- [ ] SetSteamAccountPurchased
+	- [ ] SteamAccountValidForEvent
+- [ ] IEconDOTA2_205790
+	- [ ] GetEventStatsForAccount
+	- [ ] GetGameItems
+	- [ ] GetHeroes
+	- [ ] GetItemIconPath
+	- [ ] GetRarities
+	- [ ] GetTournamentPrizePool
+- [ ] IEconDOTA2_570
+	- [ ] GetEmoticonAccessForUser
+	- [ ] GetEmoticons
+	- [ ] GetEventStatsForAccount
+	- [ ] GetGameItems
+	- [ ] GetHeroes
+	- [ ] GetItemIconPath
+	- [ ] GetRarities
+	- [ ] GetTournamentPrizePool
+- [ ] IEconItems_205790
+	- [ ] GetPlayerItems
+	- [ ] GetSchema
+	- [ ] GetSchemaURL
+	- [ ] GetStoreMetaData
+- [ ] IEconItems_218620
+	- [ ] GetPlayerItems
+- [ ] IEconItems_221540
+	- [ ] GetPlayerItems
+- [ ] IEconItems_238460
+	- [ ] GetPlayerItems
+- [ ] IEconItems_440
+	- [ ] GetPlayerItems
+	- [ ] GetSchema
+	- [ ] GetSchemaURL
+	- [ ] GetStoreMetaData
+	- [ ] GetStoreStatus
+- [ ] IEconItems_570
+	- [ ] GetPlayerItems
+	- [ ] GetSchema
+	- [ ] GetSchemaURL
+	- [ ] GetStoreMetaData
+- [ ] IEconItems_620
+	- [ ] GetPlayerItems
+	- [ ] GetSchema
+- [ ] IEconItems_730
+	- [ ] GetPlayerItems
+	- [ ] GetSchema
+	- [ ] GetSchemaURL
+	- [ ] GetStoreMetaData
+- [ ] IEconItems_841
+	- [ ] GetPlayerItems
+	- [ ] GetSchema
 - [ ] IGCVersion_205790
-    - [ ] GetClientVersion
-    - [ ] GetServerVersion
+	- [ ] GetClientVersion
+	- [ ] GetServerVersion
 - [ ] IGCVersion_440
-     - [ ] GetClientVersion
-     - [ ] GetServerVersion
+	- [ ] GetClientVersion
+	- [ ] GetServerVersion
 - [ ] IGCVersion_570
-    - [ ] GetClientVersion
-    - [ ] GetServerVersion
+	- [ ] GetClientVersion
+	- [ ] GetServerVersion
 - [ ] IGCVersion_730
-    - [ ] GetServerVersion
+	- [ ] GetServerVersion
 - [ ] IPortal2Leaderboards_620
-    - [ ] GetBucketizedData
+	- [ ] GetBucketizedData
 - [ ] IPortal2Leaderboards_841
-    - [ ] GetBucketizedData
+	- [ ] GetBucketizedData
 - [ ] ISteamApps
-    - [x] GetAppList
-    - [ ] GetServersAtAddress
-    - [ ] UpToDateCheck
+	- [x] GetAppList
+	- [ ] GetServersAtAddress
+	- [ ] UpToDateCheck
+- [ ] ISteamCDN
+	- [ ] SetClientFilters
 - [ ] ISteamDirectory
-    - [ ] GetCMList
+	- [ ] GetCMList
+- [ ] ISteamEconomy
+	- [ ] GetAssetClassInfo
+	- [ ] GetAssetPrices
 - [ ] ISteamEnvoy
-    - [ ] PaymentOutNotification
-    - [ ] PaymentOutReversalNotification
+	- [ ] PaymentOutNotification
+	- [ ] PaymentOutReversalNotification
 - [ ] ISteamNews
-    - [ ] GetNewsForApp
+	- [ ] GetNewsForApp
 - [ ] ISteamPayPalPaymentsHub
-    - [ ] PayPalPaymentsHubPaymentNotification
+	- [ ] PayPalPaymentsHubPaymentNotification
 - [ ] ISteamRemoteStorage
-    - [ ] GetCollectionDetails
-    - [ ] GetPublishedFileDetails
+	- [ ] GetCollectionDetails
+	- [ ] GetPublishedFileDetails
+	- [ ] GetUGCFileDetails
+- [ ] ISteamUser
+	- [ ] GetFriendList
+	- [ ] GetPlayerBans
+	- [ ] GetPlayerSummaries
+	- [ ] GetUserGroupList
+	- [ ] ResolveVanityURL
 - [ ] ISteamUserAuth
-    - [ ] AuthenticateUser
+	- [ ] AuthenticateUser
+	- [ ] AuthenticateUserTicket
 - [ ] ISteamUserOAuth
-    - [ ] GetTokenDetails
+	- [ ] GetTokenDetails
 - [ ] ISteamUserStats
-    - [ ] GetGlobalAchievementPercentagesForApp
-    - [ ] GetGlobalStatsForGame
-    - [ ] GetNumberOfCurrentPlayers
+	- [ ] GetGlobalAchievementPercentagesForApp
+	- [ ] GetGlobalStatsForGame
+	- [ ] GetNumberOfCurrentPlayers
+	- [ ] GetPlayerAchievements
+	- [ ] GetSchemaForGame
+	- [ ] GetUserStatsForGame
 - [ ] ISteamWebAPIUtil
-    - [ ] GetServerInfo
-    - [ ] GetSupportedAPIList
+	- [ ] GetServerInfo
+	- [ ] GetSupportedAPIList
 - [ ] ISteamWebUserPresenceOAuth
-    - [ ] PollStatus
+	- [ ] PollStatus
+- [ ] ITFItems_440
+	- [ ] GetGoldenWrenches
+- [ ] ITFPromos_205790
+	- [ ] GetItemID
+	- [ ] GrantItem
+- [ ] ITFPromos_440
+	- [ ] GetItemID
+	- [ ] GrantItem
+- [ ] ITFPromos_570
+	- [ ] GetItemID
+	- [ ] GrantItem
+- [ ] ITFPromos_620
+	- [ ] GetItemID
+	- [ ] GrantItem
+- [ ] ITFPromos_730
+	- [ ] GetItemID
+	- [ ] GrantItem
+- [ ] ITFPromos_841
+	- [ ] GetItemID
+	- [ ] GrantItem
+- [ ] IGameServersService
+	- [ ] GetAccountList
+	- [ ] CreateAccount
+	- [ ] SetMemo
+	- [ ] ResetLoginToken
+	- [ ] GetAccountPublicInfo
+	- [ ] GetServerSteamIDsByIP
+	- [ ] GetServerIPsBySteamID
+- [ ] IPublishedFileService
+	- [ ] QueryFiles
 - [ ] IPlayerService
-    - [ ] RecordOfflinePlaytime
+	- [ ] RecordOfflinePlaytime
+	- [ ] GetRecentlyPlayedGames
+	- [ ] GetOwnedGames
+	- [ ] GetSteamLevel
+	- [ ] GetBadges
+	- [ ] GetCommunityBadgeProgress
+	- [ ] IsPlayingSharedGame
+- [ ] IEconService
+	- [ ] GetTradeOffers
+	- [ ] GetTradeOffer
+	- [ ] GetTradeOffersSummary
+	- [ ] DeclineTradeOffer
+	- [ ] CancelTradeOffer
+- [ ] ICheatReportingService
+	- [ ] ReportCheatData
 - [ ] IAccountRecoveryService
-    - [ ] ReportAccountRecoveryData
-    - [ ] RetrieveAccountRecoveryData
+	- [ ] ReportAccountRecoveryData
+	- [ ] RetrieveAccountRecoveryData
