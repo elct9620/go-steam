@@ -115,7 +115,7 @@ Current API List is from steam API, I will implements necessary API only.
 	- [ ] PaymentOutNotification
 	- [ ] PaymentOutReversalNotification
 - [ ] ISteamNews
-	- [ ] GetNewsForApp
+	- [x] GetNewsForApp
 - [ ] ISteamPayPalPaymentsHub
 	- [ ] PayPalPaymentsHubPaymentNotification
 - [ ] ISteamRemoteStorage
