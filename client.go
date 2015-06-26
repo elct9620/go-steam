@@ -48,8 +48,8 @@ func (r *SteamRequest) Get(result interface{}) {
 
 func buildQueryString(params []Param) string {
 	var queries []string
-	for k, v := range params {
-		queries = append(queries, fmt.Sprintf("%s=%s", k, v))
+	for _, v := range params {
+		queries = append(queries, fmt.Sprintf("%s=%s", v.key, v.value))
 	}
 	return strings.Join(queries, "&")
 }
